@@ -16,7 +16,7 @@ A Smooth Download Button with Progress.
  dependencies {
      compile fileTree(dir: 'libs', include: ['*.jar'])
      compile 'com.android.support:appcompat-v7:23.0.1'
-     compile 'com.xiaochendev.progressroundbtn:library:0.9.1'
+     compile project(':mylibrary')
  }
  ```
 #### step2 
@@ -24,7 +24,7 @@ A Smooth Download Button with Progress.
 you can define the button in xml like this:
 
 ```xml
-<com.xiaochen.progressroundbutton.AnimDownloadProgressButton
+<com.js.mylibrary.AnimDownloadProgressButton
         android:id="@+id/anim_btn"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -52,7 +52,7 @@ the Customized properties are in the follow table:
 
 ## About me 
 
-I am a developer in China，If you have any idea about this project，please [contact me](mailto:cctanfujun@163.com)
+I am a developer in China，If you have any idea about this project，please [contact me](mailto:1130397686@qq.com)
 ,Thank you!
 
 ## License
